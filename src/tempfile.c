@@ -84,7 +84,7 @@ mrb_init_tempfile_path(mrb_state *mrb)
 }
 
 void
-mrb_mruby_tempfile_gem_init(mrb_state *mrb)
+mrb_pins_mruby_tempfile_gem_init(mrb_state *mrb)
 {
   struct RClass *tempfile_class;
   struct RClass *file;
@@ -100,5 +100,5 @@ mrb_mruby_tempfile_gem_init(mrb_state *mrb)
 }
 
 void
-mrb_mruby_tempfile_gem_final(mrb_state* mrb) {
+mrb_pins_mruby_tempfile_gem_final(mrb_state* mrb) {
 }
